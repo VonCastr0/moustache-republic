@@ -35,7 +35,7 @@ export class ProductPage extends Component {
               <div className="row Content">
                 <div className="col-sm-12 col-md-5 offset-md-1 col-lg-3 offset-lg-3 mb-3">
                   <img
-                    className="img-responsive ProductImage"
+                    className="img-fluid"
                     src={products.imageURL}
                     alt="shirts"
                   />

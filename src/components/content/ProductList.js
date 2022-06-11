@@ -6,7 +6,6 @@ export class ProductList extends Component {
     return (
       <div className="row">
         <div className="col-2 offset-9 dropdown">
-          <i className="fa fa-shopping-cart lightText d-md-none d-lg-none" />
           <div class="dropdown-content">
             <div className="row clothesItem">
               <div className="col-4">
