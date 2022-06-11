@@ -1,0 +1,114 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+}
+
+.NavBar {
+  background-color: #f6f6f7;
+  margin: 15px auto;
+  height: 30px;
+  line-height: 30px;
+}
+
+.Content {
+  margin: 20px;
+}
+
+.ProductImage {
+  height: 600px;
+}
+
+.lightText {
+  color: #888888;
+  font-size: 0.8em;
+}
+
+.price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+.Size {
+  color: #222222;
+}
+
+.required {
+  color: #c90000;
+}
+
+.sizeButton {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  color: #888888;
+  padding: 10px 15px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.sizeButton:focus {
+  outline-style: solid;
+  outline-color: #222222;
+  outline-width: 2px;
+  color: #222222;
+}
+
+.addToCartButton {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #222222;
+  color: #222222;
+  padding: 5px 25px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.addToCartButton:focus {
+  outline-width: 0;
+}
+
+.addToCartButton:hover {
+  background-color: #222222;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 250px;
+  padding: 12px 16px;
+  z-index: 1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888888;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.clothesItem {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
